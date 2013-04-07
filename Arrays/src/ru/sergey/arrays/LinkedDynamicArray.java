@@ -90,6 +90,7 @@ public class LinkedDynamicArray implements IDynamicArray {
 		return p.item;
 	}
 	public void clear(){
+		length=0;
 		element =null;
 	}
 	public Object get(int index){
